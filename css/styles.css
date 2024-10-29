@@ -510,6 +510,9 @@ img {
     color: #2e2f42;
     line-height: 1.5;
     margin-bottom: 16px;
+}
+
+.text-modal {
     margin-bottom: 8px;
 }
 
@@ -590,7 +593,8 @@ img {
 
 .modal-button:hover,
 .modal-button:focus {
-    fill: #ffffff;
+    background-color: #404bbf;
+    border: none;
 }
 
 .icon-close {
