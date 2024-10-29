@@ -502,7 +502,6 @@ img {
 }
 
 .modal-text {
-    position: absolute;
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 0.02em;
@@ -510,10 +509,6 @@ img {
     color: #2e2f42;
     line-height: 1.5;
     margin-bottom: 16px;
-}
-
-.text-modal {
-    margin-bottom: 8px;
 }
 
 .form-text {
@@ -548,6 +543,10 @@ img {
 
 .label-input::placeholder {
     color: #ffffff;
+}
+
+.label-modal {
+    margin-bottom: 8px;
 }
 
 .form-button {
@@ -603,7 +602,11 @@ img {
 
 .icon-close:hover,
 .icon-close:focus {
-    fill: #ffffff
+    fill: #ffffff;
+}
+
+.modal-icon {
+    fill: #4D5AE5;
 }
 
 .modal-label {
@@ -635,7 +638,7 @@ img {
     border-color: #4D5AE5;
 }
 
-.icon-name {
+.modal-icon {
     position: absolute;
     left: 16px;
     top: 50%;
@@ -643,7 +646,7 @@ img {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-name:focus {
+.modal-icon:focus {
     fill: #4D5AE5;
 }
 
