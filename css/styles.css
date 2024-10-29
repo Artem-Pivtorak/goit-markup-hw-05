@@ -664,6 +664,10 @@ img {
     outline: transparent;
     resize: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-bottom: 16px;
+}
+
+.modal-coments:focus {
     border-color: #4D5AE5;
 }
 
@@ -687,6 +691,17 @@ img {
     align-items: center;
     justify-content: center;
     fill: transparent;
+    border-radius: 2px;
+}
+
+.privacy-policy {
+    color: #4d5ae5;
+}
+
+.modal-checkbox:checked+.privacy .privacy-modal {
+    background-color: #404bbf;
+    border: none;
+    fill: #F4F4FD;
 }
 
 .button-enter {
