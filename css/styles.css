@@ -600,12 +600,12 @@ img {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-close:hover>svg,
-.icon-close:focus>svg {
+.modal-button:hover>svg,
+.modal-button:focus>svg {
     fill: #ffffff;
 }
 
-.modal-icon {
+.modal-input:focus+.modal-icon {
     fill: #4D5AE5;
 }
 
