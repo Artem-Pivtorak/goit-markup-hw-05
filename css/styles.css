@@ -699,8 +699,8 @@ img {
     color: #4d5ae5;
 }
 
-.modal-checkbox:checked+.privacy .privacy-modal {
-    background-color: #404bbf;
+.modal-checkbox:checked+.privacy .checkbox-policy {
+    background-color: #404BBF;
     border: none;
     fill: #F4F4FD;
 }
